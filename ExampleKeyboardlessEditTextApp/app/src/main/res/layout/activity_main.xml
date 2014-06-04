@@ -36,8 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:orientation="horizontal"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" >
+        android:layout_centerVertical="true" >
 
         <Button
             android:layout_width="0dp"
