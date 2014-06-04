@@ -4,13 +4,14 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.EditText;
 
 import net.simplyadvanced.widgets.KeyboardlessEditText;
 
 /** Simple sample app to demonstrate the KeyboardlessEditText */
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    private KeyboardlessEditText mEditText;
+    private EditText mEditText;
     private View mDot;
     private View mDash;
     private View mBackspace;
@@ -20,7 +21,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mEditText = (KeyboardlessEditText) findViewById(R.id.inputText);
+        mEditText = (EditText) findViewById(R.id.inputText);
 
         mDot = findViewById(R.id.dotButton);
         mDash = findViewById(R.id.dashButton);
