@@ -3,7 +3,7 @@ KeyboardlessEditText
 
 A native Android EditText, except that no keyboard will appear when user interacts with it. All other edit operations still work.
 
-Users will still have the ability to select, cut, copy, and paste using this widget.
+Users will still have the ability to select, cut, copy, and paste using this widget. This was created because there were no other good/modular solutions in StackOverflow nor on GitHub. Each "answer" had a drawback that wouldn't have fit with my application.
 
 Included in this repo:
 - An easy-to-use stand-alone ~/KeyboardlessEditText2.java that you can just copy into your project. (Has no dependencies)
@@ -33,7 +33,3 @@ No keyboard!
 
 Edit mode!
 ![KeyboardlessEditText with no keyboard!](https://github.com/danialgoodwin/android-widget-keyboardless-edittext/raw/master/Screenshots/keyboardless-edittext-in-edit-mode.png)
-
-
-
-I originally created this for my "Simply DTMF Tone Generator" app. And, there were no other good/modular solutions in StackOverflow nor on GitHub. [https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator](https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator)
