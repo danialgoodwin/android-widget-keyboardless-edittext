@@ -35,3 +35,5 @@ Edit mode!
 ![KeyboardlessEditText with no keyboard!](https://github.com/danialgoodwin/android-widget-keyboardless-edittext/raw/master/Screenshots/keyboardless-edittext-in-edit-mode.png)
 
 
+
+I originally created this for my "Simply DTMF Tone Generator" app. And, there were no other good/modular solutions in StackOverflow nor on GitHub. [https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator](https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator)
