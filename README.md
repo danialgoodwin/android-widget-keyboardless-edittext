@@ -25,7 +25,13 @@ To use KeyboardlessEditText:
 ````
         EditText et = new KeyboardlessEditText(this);
 ````
-        
+
+## Test ##        
+
+To test the app, you can either install the APK in the root of this repo or go to: [https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator](https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator)
+
+
+## Screenshots ##
 
 No keyboard!
 ![KeyboardlessEditText with no keyboard!](https://github.com/danialgoodwin/android-widget-keyboardless-edittext/raw/master/Screenshots/keyboardless-edittext-no-keyboard.png)
