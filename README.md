@@ -10,7 +10,7 @@ Included in this repo:
 - Another version ~/app/src/main/java/net/simplyadvanced/widgets/KeyboardlessEditText.java that depends on ~/.../net/simplyadvanced/utils/ReflectionUtils.java.
 - A sample app that demonstrates the use of the keyboardless EditText, including input buttons and backspace.
 
-To use KeyboardlessEditText:
+To use KeyboardlessEditText, use one of the following methods:
 - In XML, add a widget for `<my.package.name>.KeyboardlessEditText`
 
 ```
@@ -28,7 +28,8 @@ To use KeyboardlessEditText:
 
 ## Test ##
 
-To test the app, you can either install the APK in the root of this repo or go to: [https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator](https://play.google.com/store/apps/details?id=net.simplyadvanced.simplytonegenerator)
+To test the app, you can either install the APK in the root of this repo or go to:
+- [https://play.google.com/store/apps/details?id=net.simplyadvanced.examplekeyboardlessedittext.app](https://play.google.com/store/apps/details?id=net.simplyadvanced.examplekeyboardlessedittext.app)
 
 
 ## Screenshots ##
