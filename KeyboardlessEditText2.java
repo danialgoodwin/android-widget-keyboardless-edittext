@@ -93,6 +93,10 @@ public class KeyboardlessEditText2 extends EditText {
 
 //      setShowSoftInputOnFocus(false); // This is a hidden method in TextView.
         reflexSetShowSoftInputOnFocus(false); // Workaround.
+        
+        // Ensure that cursor is at the end of the input box when initialized. Without this, the
+        // cursor may be at index 0 when there is text added via layout XML.
+        setSelection(getText().length());
     }
 
     @Override
