@@ -3,7 +3,7 @@ apply plugin: 'android'
 android {
     compileSdkVersion 19
     buildToolsVersion "19.1.0"
-
+    
     defaultConfig {
         packageName "net.simplyadvanced.examplekeyboardlessedittext.app"
         minSdkVersion 8
